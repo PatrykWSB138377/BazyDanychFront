@@ -1,0 +1,33 @@
+
+
+@mixin defaultButton {
+    font-size: 14px;
+    padding: 10px 15px;
+
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 16px;
+
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+
+.submitButton {
+    margin-top: 30px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
